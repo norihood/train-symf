@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+page_register:
+    path:      /register
+    defaults:  { _controller: AppBundle:Lucky:Register}
